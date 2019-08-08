@@ -1,44 +1,55 @@
-/* =============
-    Header
-============= */
-header {
-    display: grid;
-    grid-template-columns: 20% auto;
-    padding: 2%;
-    position: fixed;
-    width: 98%;
-    background-color: white;
-    z-index: 50;
-
-section{
-  display: flex;
-  align-items: center;
-}
-    // nav {
-    //     i {
-    //         font-size: rem-calc(30);
-    //         margin-top: 8px;
-    //     }
-    // }
-
-    aside {
-        text-align: right;
-
-        a:link,
-        a:visited {
-            background-color: $sunflower;
-            border-radius: rem-calc(23);
-            color: $black;
-            display: inline-block;
-            font-size: rem-calc(18);
-            font-weight: 700;
-            padding: 13px 25px;
-        }
-
-        a:active,
-        a:hover {
-            background-color: $sunflower;
-            color: $white;
-        }
-    }
-}
+// /* =============
+//     Header
+// ============= */
+// header {
+//     display: grid;
+//     grid-template-areas: "burger logo" "nav nav";
+//     grid-template-columns: auto 70%;
+//     @include lg {
+//         grid-template-areas: "nav logo";
+//         grid-template-columns: auto 30%;
+//     }
+//
+//     // burger container
+//     section:nth-child(1) {
+//         // align-items: center;
+//         // display: flex;
+//         font-size: rem-calc(22);
+//         grid-area: burger;
+//         padding: 10px;
+//         @include lg {
+//             display: none;
+//         }
+//
+//         button {
+//             background-color: $white;
+//             border: none;
+//             outline: none;
+//         }
+//     }
+//
+//     // logo container
+//     section:nth-child(2) {
+//         align-items: center;
+//         display: flex;
+//         grid-area: logo;
+//         justify-content: flex-end;
+//         h1 {
+//           font-family: 'Rubik Mono One', sans-serif;
+//           font-size: rem-calc(22);
+//           padding-right: 10px;
+//           span {
+//             color: $accent;
+//           }
+//         }
+//     }
+//
+//     // nav container
+//     nav {
+//         display: none;
+//         grid-area: nav;
+//         @include lg {
+//             display: block !important;
+//         }
+//     }
+// }

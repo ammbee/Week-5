@@ -1,0 +1,24 @@
+/* =============
+    Books
+============= */
+#books {
+  img {
+    margin-bottom: -12px;
+    width: 100%;
+}
+  @include sm {
+    margin-bottom: -5px;
+  }
+  @include md {
+    margin: 0 0px -5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include lg {
+    margin-bottom: -10px;
+  }
+  @include xl {
+      width: 1000px;
+  }
+}

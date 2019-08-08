@@ -2,53 +2,70 @@
     Heroes
 ============= */
 
-#hero{
-    height: 358px;
-    background-image: url('../img/hero/hero.jpg');
-    background-size: cover;
-    background-position: -100px 0;
+#hero-1 {
+  background-image: url("../img/hero/hero-1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  position: relative;
 
-    @include sm{
-        height: 400px;
-    }
+  .hero-text {
+    color: white;
+    font-family: 'Patrick Hand SC', cursive;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 57%;
+    transform: translate(-50%, -50%);
 
-    @include md{
-        height: 600px;
+    h1 {
+      font-size: rem-calc(28);
+      white-space: nowrap;
     }
+  }
+  @include sm{
+    height: 380px;
+  }
 
-    @include lg{
-        height: 700px;
-    }
+  @include md{
+    height: 480px;
+  }
 
-    @include xl{
-        height: 900px;
-    }
-
-    @include xxl{
-        height: 90vh;
-    }
+  @include lg{
+    height: 580px;
+  }
 }
 
-#hero-2{
-    height: 421px;
-    background-image: url('../img/hero/hero-2.jpg');
-    background-size: cover;
-    background-position: right bottom;
+#hero-2 {
+  background-image: url("../img/hero/hero-2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
 
-    @include sm{
-        background-position: center;
-        height: 475px;
-    }
+  .hero-text {
+    color: white;
+    font-family: 'Patrick Hand SC', cursive;
+    left: 32%;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    transform: translate(-50%, -50%);
 
-    @include md{
-        height: 525px;
+    h1 {
+      font-size: rem-calc(35);
+      white-space: nowrap;
     }
+  }
+  @include sm{
+    height: 400px;
+  }
 
-    @include lg{
-        height: 600px;
-    }
+  @include md{
+    height: 500px;
+  }
 
-    @include xl{
-        height: 100vh;
-    }
+  @include lg{
+    height: 600px;
+  }
 }

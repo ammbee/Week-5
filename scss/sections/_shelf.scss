@@ -1,0 +1,157 @@
+/* =============
+    Shelf
+============= */
+#shelf {
+  background-color: $shelfLight;
+  color: $white;
+  text-align: center;
+
+  h1 {
+    padding: 20px 0 10px;
+  }
+
+  p {
+    padding: 5px 0 15px;
+  }
+
+  span {
+    font-style: italic;
+  }
+
+  li {
+    padding: 10px 10px 20px;
+  }
+
+  a:link,
+  a:visited {
+    background-color: $accent;
+    border-radius: rem-calc(10);
+    color: $white;
+    padding: 5px;
+  }
+
+  a:active,
+  a:hover {
+    background-color: $accentLight;
+    color: $white;
+  }
+
+  .gatsby {
+    align-items: center;
+    background-color: $shelfDark;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+
+    img {
+      width: 20%;
+    }
+  }
+
+  .mockingbird {
+    align-items: center;
+    background-color: $shelfDark;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+
+    img {
+      width: 19%;
+    }
+  }
+
+  .women {
+    align-items: center;
+    background-color: $shelfDark;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+
+    img {
+      width: 20.5%;
+    }
+  }
+
+  .flies {
+    align-items: center;
+    background-color: $shelfDark;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+
+    img {
+      width: 20.5%;
+    }
+  }
+
+  .visibility {
+    display: none;
+  }
+
+  .shelfbox {
+    align-items: center;
+    background-color: $graphLight;
+    height: 18.5px;
+    margin: 10px 10px 0;
+  }
+  @include sm {
+    h1 {
+      font-size: 40px;
+    }
+
+    h3 {
+      font-size: 25px;
+    }
+  }
+  @include md {
+    h1 {
+      font-size: 50px;
+    }
+
+    h3 {
+      font-size: 35px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+    background-color: $white;
+    grid-template-columns: 10% auto 10%;
+    grid-template-areas: ". content .";
+
+    .content-grid-item {
+      background-color: $shelfLight;
+      padding: 0 20px;
+    }
+
+    .shelfbox {
+      background-color: $white;
+      height: 40px;
+    }
+
+    .visibility {
+      display: initial;
+    }
+  }
+  @include xl {
+    grid-template-columns: auto 1000px auto;
+  }
+
+  ul {
+    display: grid;
+    grid-gap: none;
+    grid-template-rows: repeat(4, auto);
+    @include sm {
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+    @include md {
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(4, auto);
+    }
+    @include lg {
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(4, auto);
+    }
+  }
+}

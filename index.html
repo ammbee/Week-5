@@ -2,149 +2,239 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/3c79b583ac.js"></script>
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,600,700|Pacifico|Roboto+Slab:700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Web 1 Review</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/3c6fd0835d.js"></script>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Rubik+Mono+One|Open+Sans:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>GOODBOOKS</title>
 </head>
 
 <body>
+  <section id="off-canvas-container" data-navigation-position="left" data-navigation-slide="push">
+    <div>
+      <button>
+        <i class="far fa-times-circle" id="close-btn"></i>
+      </button>
+      <div id="nav-container">
+        <nav data-nav="main-navigation">
 
-  <header data-fixed="fixed-item">
-        <!-- <div> -->
-            <!-- burger icon -->
-          <section>
-            <button id="burger-icon" >
-                <i class="fas fa-bars"></i>
-            </button>
-          </section>
-        <!-- </div> -->
-    </header>
+          <ul>
+            <li><a href="#hero-1">Home</a></li>
+            <li><a href="#reading">Reading</a></li>
+            <li><a href="#shelf">Shelf</a></li>
+            <li><a href="#graph">Stats</a></li>
+            <li><a href="#judge">Covers</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+          <li>
+          <ul>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </li>
+      </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
 
+  <button id="burger-icon" data-fixed="fixed-item">
+    <i class="fas fa-bars"></i>
+  </button>
 
-    <main>
-      <!-- overlay for the view when the menu is visible. Please don't move -->
-      <div class="js-off-canvas-overlay" id="overlay"></div>
-      <!-- overlay for the view when the menu is visible. Please don't move -->
+  <main>
 
-        <!-- <header>
-            <nav>
-                <i class="fas fa-bars"></i>
-            </nav>
-            <aside>
-                <a href="#">Survival Guide</a>
-            </aside>
-        </header> -->
+    <div class="js-off-canvas-overlay" id="overlay"></div>
 
-        <section id="hero"></section>
-
-        <section id="history" class="content-grid">
-            <div>
-                <section></section>
-
-                <article>
-                    <h1>Early History of</h1>
-                    <h1>Machine Learning</h1>
-                    <h4>by Professor Karen Pine</h4>
-                    <p>The first case of neural networks was in 1943, when neurophysiologist Warren McCulloch and mathematician Walter Pitts wrote a paper about neurons, and how they work. They decided to create a model of this using an electrical circuit, and therefore the neural network was born.</p>
-                    <p>Another extremely early instance of a neural network came in 1959, when Bernard Widrow and Marcian Hoff created two models of them at Stanford University. The first was called ADELINE, and it could detect binary patterns. For example, in a stream of bits, it could predict what the next one would be. The next generation was called MADELINE, and it could eliminate echo on phone lines, so had a useful real world application. It is still in use today.</p>
-                </article>
-
-                <article>
-                    <div>
-                        <h3>1980s and 1990s</h3>
-                        <p>1982 was the year in which interest in neural networks started to pick up again, when John Hopfield suggested creating a network which had bidirectional lines, similar to how neurons actually work. Furthermore, in 1982, Japan announced it was focusing on more advanced neural networks, which incentivised American funding into the area, and thus created more research in the area.</p>
-                    </div>
-                </article>
-            </div>
+    <!-- <header>
+        <section>
+          <button id="burger-icon">
+          <i class="fas fa-bars"></i>
+        </button>
         </section>
+        <section>
+        <h1>GOODBOOK<span>S</span></h1>
+      </section>
+      <nav data-nav="main-navigation">
+              <ul>
+                  <li><a href="#reading">Reading</a></li>
+                  <li><a href="#shelf">Shelf</a></li>
+                  <li><a href="#graph">Stats</a></li>
+                  <li><a href="#judge">Covers</a></li>
+                  <li><a href="#gallery">Gallery</a></li>
+              </ul>
+          </nav>
+    </header> -->
 
-        <section id="skills">
-            <div>
-                <section></section>
+    <section class="content-grid" id="hero-1">
+        <div class="hero-text">
+          <h1>READ A GOOD BOOK</h1>
+        </div>
+    </section>
 
-                <section class="content-grid">
-                    <div>
-                        <h1>Robot Skills</h1>
-                        <p>To be effective as both specialists and generalists — as well as being both practical and investigative — roboticists need a good set of supporting skills. In this list we've taken 25 career skills and grouped them into 10 essential skills for roboticists.</p>
+    <section class="content-grid" id="reading">
+      <div class="content-grid-item section-content">
+        <h1>Do you like reading?</h1>
+        <h2><span>Of course you do!</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, turpis nec sollicitudin auctor, velit elit sollicitudin diam, non ornare turpis mauris a massa. Donec interdum sapien vel dui varius, sed ornare tellus porttitor. Donec
+          ac posuere metus. Nullam maximus lectus in risus congue, vitae malesuada dolor bibendum.</p>
+        <article>
+          <h3>But if you <span>don't</span>...</h3>
+          <p>Nullam nulla nisl, fringilla ultrices elit at, fringilla elementum erat. Ut malesuada mauris a turpis imperdiet, quis semper dui ullamcorper. Donec a nibh et felis viverra efficitur non ut neque. Fusce vehicula dolor magna, at iaculis
+            justo luctus ac. Vivamus quis nisi in est pellentesque molestie. Sed finibus elit lacus, quis finibus arcu vehicula non.</p>
+        </article>
+      </div>
+    </section>
 
-                        <article>
-                            <section>
-                                <div class="flex-container">
-                                    <h4>Emotion</h4>
-                                    <h3>62%</h3>
-                                </div>
-                                <div class="black-bg">
-                                    <div></div>
-                                </div>
-                            </section>
+    <section class="book-grid" id="books">
+      <div class="content-grid-item">
+        <img src="img/shelf/books-on-shelf.png" alt="shelf">
+      </div>
+    </section>
 
-                            <section>
-                                <div class="flex-container">
-                                    <h4>Active Learning</h4>
-                                    <h3>90%</h3>
-                                </div>
-                                <div class="black-bg">
-                                    <div></div>
-                                </div>
-                            </section>
-
-                            <section>
-                                <div class="flex-container">
-                                    <h4>Math</h4>
-                                    <h3>95%</h3>
-                                </div>
-                                <div class="black-bg">
-                                    <div></div>
-                                </div>
-                            </section>
-
-                        </article>
-                    </div>
-
+    <section class="content-grid" id="shelf">
+      <div class="content-grid-item">
+        <h1>On the Shelf</h1>
+        <ul>
+          <li>
+            <div class="gatsby">
+              <img src="img/shelf/great-gatsby.jpg" alt="gatsby">
+              <section>
+                <h3>The Great Gatsby</h3>
+                <p><span>"It takes two to make an accident."</span></p>
+                <a href="#">BUY NOW</a>
+              </section>
+            </div>
+          </li>
+          <li>
+            <div class="mockingbird">
+              <section>
+                <h3>To Kill a Mockingbird</h3>
+                <p><span>"Things are never as bad as they seem."</span></p>
+                <a href="#">BUY NOW</a>
+              </section>
+              <img src="img/shelf/mockingbird.jpeg" alt="mockingbird">
+            </div>
+          </li>
+          <li>
+            <div class="women">
+              <img src="img/shelf/little-women.jpeg" alt="women">
+              <section>
+                <h3>Little Women</h3>
+                <p><span>"Love is a great beautifier."</span></p>
+                <a href="#">BUY NOW</a>
+              </section>
+            </div>
+          </li>
+          <li>
+            <section class="visibility">
+              <div class="flies">
+                <section>
+                  <h3>Lord of the Flies</h3>
+                  <p><span>"The greatest ideas are the simplest."</span></p>
+                  <a href="#">BUY NOW</a>
                 </section>
-            </div>
-        </section>
+                <img src="img/shelf/lord-of-the-flies.jpg" alt="flies">
+              </div>
+            </section>
+          </li>
+        </ul>
+        <div class="shelfbox"></div>
+      </div>
+    </section>
 
-        <section id="hero-2"></section>
+    <section class="content-grid" id="graph">
+      <div class="content-grid-item">
+        <h1>Sorry, but the Book was Better</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, turpis nec sollicitudin auctor, velit elit sollicitudin diam, non ornare turpis mauris a massa.</p>
+        <div class="flex-container">
+          <div>Preferred Book</div>
+          <div>74%</div>
+        </div>
+        <div class="bar">
+          <div class="graphbar" style="width: 74%">
+          </div>
+        </div>
+        <div class="flex-container">
+          <div>Preferred Movie</div>
+          <div>4%</div>
+        </div>
+        <div class="bar">
+          <div class="graphbar" style="width: 4%">
+          </div>
+        </div>
+        <div class="flex-container">
+          <div>No Preference</div>
+          <div>22%</div>
+        </div>
+        <div class="bar">
+          <div class="graphbar" style="width: 22%">
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section id="gallery" class="content-grid">
-            <div>
-                <ul>
-                    <li>Skynet</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li class="show-for-md"></li>
-                    <li class="show-for-lg"></li>
-                    <li class="show-for-lg"></li>
-                </ul>
-            </div>
-        </section>
+    <section class="content-grid" id="hero-2">
+      <div class="content-grid-item">
+        <div class="hero-text">
+          <h1>"Words are Life."</h1>
+        </div>
+      </div>
+    </section>
 
-        <footer>
-            <h1><span>SUBSCRIBE</span> TO GET IN TOUCH</h1>
-            <ul>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-        </footer>
-    </main>
+    <section class="content-grid" id="judge">
+      <div class="content-grid-item section-content">
+        <h1>Don't Judge a Book by its Cover</h1>
+        <h2><span>Unless the cover is really ugly</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, turpis nec sollicitudin auctor, velit elit sollicitudin diam, non ornare turpis mauris a massa. Donec interdum sapien vel dui varius, sed ornare tellus porttitor. Donec
+          ac posuere metus. </p>
+      </div>
+    </section>
 
+    <section class="grid-container" id="gallery">
+      <div class="content-grid-item">
+        <ul>
+          <li>
+            <!-- <div class="item1"><img src="img/gallery/book-pile.jpg" alt="gallery-1"></div> -->
+          </li>
+          <li>
+            <!-- <div class="item2"><img src="img/gallery/tablet.jpg" alt="gallery-2"></div> -->
+          </li>
+          <li>
+            <!-- <div class="item3"><img src="img/gallery/head.jpeg" alt="gallery-3"></div> -->
+          </li>
+          <li>
+            <!-- <div class="item4"><img src="img/gallery/books.jpg" alt="gallery-4"></div> -->
+          </li>
+          <li>
+            <!-- <div class="item5"><img src="img/gallery/book-wall.jpg" alt="gallery-5"></div> -->
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Greensock -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <!-- <footer class="content-grid">
+      <div class="content-grid-item">
+        <h1>STAY UP TO DATE</h1>
+        <ul>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </footer> -->
+  </main>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Greensock -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
-    <script src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
+
 </body>
 
 </html>

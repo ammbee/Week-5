@@ -1,0 +1,53 @@
+/* =============
+    Judge
+============= */
+#judge {
+  h1 {
+    font-size: rem-calc(35);
+    padding-bottom: 18.5px;
+  }
+
+  h2 {
+    color: $accent;
+    font-size: rem-calc(25);
+    padding-bottom: 37px;
+  }
+
+  p {
+    text-align: justify;
+    padding-bottom: 74px;
+  }
+
+  @include sm {
+  grid-template-columns: 10% auto 10%;
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@include md {
+  h1 {
+    font-size: 50px;
+    text-align: left;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: left;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+@include xl {
+    grid-template-columns: auto 1000px auto;
+    h2{
+      text-align: right;
+    }
+}
+
+}

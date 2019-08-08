@@ -1,0 +1,86 @@
+/* =============
+    Reading
+============= */
+#reading {
+  padding-bottom: 74px;
+
+  h1 {
+    font-size: rem-calc(35);
+    padding-bottom: 18.5px;
+    text-align: right;
+  }
+
+  h2 {
+    color: $accent;
+    font-size: rem-calc(25);
+    padding-bottom: 37px;
+    text-align: right;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  article {
+    padding-top: 18.5px;
+
+    h3 {
+      font-size: rem-calc(16);
+      font-weight: 700;
+    }
+
+    span {
+      color: $accent;
+    }
+  }
+  @include sm {
+    grid-template-columns: 10% auto 10%;
+
+    h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  @include md {
+    h1 {
+      font-size: 50px;
+      text-align: left;
+    }
+
+    h2 {
+      font-size: 40px;
+      text-align: left;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    article {
+      h3 {
+        font-size: rem-calc(20);
+      }
+    }
+  }
+  @include lg {
+    h1 {
+      text-align: left;
+    }
+
+    h2 {
+      text-align: left;
+    }
+  }
+  @include xl {
+    grid-template-columns: auto 1000px auto;
+
+    h2 {
+      text-align: right;
+    }
+  }
+}

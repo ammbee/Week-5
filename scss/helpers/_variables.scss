@@ -3,23 +3,24 @@
 ============= */
 
 // Define the breakpoints
-// Small tablets and large smartphones
-$screen-sm-min: 585px;
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
 
-// Tablets
-$screen-md-min: 745px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
 
-// Large tablets and small desktops
-$screen-lg-min: 980px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
 
-// Desktops and small monitors
-$screen-xl-min: 1375px;
-
-// Extra large monitors
-$screen-xxl-min: 1600px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;
 
 // Colors
 $white: #fff;
 $black: #000;
-$sunflower: #F8C832;
-$charcoal: #222222;
+$accent: #540404;
+$accentLight: #6D2323;
+$shelfLight: #9F7246;
+$shelfDark: #775534;
+$graphLight: #6F4532;
+$graphDark: #412316;
